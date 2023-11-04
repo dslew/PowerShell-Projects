@@ -1,3 +1,10 @@
+#This project is very much a 'work in progress", so please don't be too critical!
+#The purpose of this project was to build on the practical application of PowerShell.
+#I'm hoping to put together something similar for creating Users and Groups on Azure.
+#So this is I guess the foundations for my future project.
+#
+#You will see in the comments where I have had issues, please feel free to add suggestions/corrections in the comments section.
+
 #SUB FUNCTIONS:
 #having trouble with displaying Local Users: doesn't seem to work on first attempt. The users are displayed only after the next function is run. Have tried a few different variations but it seems to produce the same result.
 function Display-Users{

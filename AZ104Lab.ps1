@@ -24,7 +24,7 @@ Write-Host "Creating a new VM. Please enter Name:"
 $vmName = Read-Host
 
 #VM params - could continue on with read-host for all inputs, but for now I just wanted to get the basics.
-#I guess User input isn't really required when code is being produced for IaC.
+#I guess User input isn't really required when code being used to spin up resources.
 $params = @{
     ResourceGroupName = $rgGrp
     Name = $vmName
